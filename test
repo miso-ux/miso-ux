@@ -1,0 +1,4 @@
+=CONCAT(D2;"0";E2;"-";IFS(H2="eLegislativa";"eleg";H2="eSbirka";"esbir";H2="infra";"infra";H2="eSeL";"esel");"-";IFS(AND(F2="PROD";G2="Primary");"pp";AND(F2="PROD";G2="Secondary");"zp";AND(F2="TEST";G2="Secondary");"tp"))
+=CONCAT(D2;"0";E2;"-";IFS(H2="ETS";"ets";H2="ETS_DB";"ets_db";H2="infra";"infra";H2=“CMS”;”cms”;H2=“DMS”;”dms”;H2=“VEH”;”veh”;H2=“ACC”;”acc”;H2=“DWH”;”dwh”);”-“;IFS(AND(F2="PROD";G2="Primary");"pp";AND(F2="PROD";G2="Secondary");"zp";AND(F2="TEST";G2="Secondary");"tp"))
+=CONCAT(D2;"-";IFS(H2="eLegislativa";"eleg";H2="eSbirka";"esbir";H2="infra";"infra";H2="eSeL";"esel");)
+=CONCAT(D2;"-";IFS(H2="ETS";"ets";H2="ETS_DB";"ets_db";H2="infra";"infra";H2="INFRA";"NDS";H2=“CMS”;”cms;H2=“DMS”;”dms;H2=“VEH”;”ven;H2=“ACC”;”acc;H2=“DWH”;”dwh);)
