@@ -1,0 +1,4 @@
+#!/Users/michal/PycharmProjects/miso-ux/venv/bin/python
+# EASY-INSTALL-SCRIPT: 'vconnector==0.6.0','vconnector-cli'
+__requires__ = 'vconnector==0.6.0'
+__import__('pkg_resources').run_script('vconnector==0.6.0', 'vconnector-cli')
